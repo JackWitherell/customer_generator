@@ -69,25 +69,25 @@ string getEmail(string firstName, string lastName, vector<string> emailEndings, 
 		case 6:
 		case 7:
 			while(easytolower(randword[0])!=easytolower(lastName[0])){
-				randword=dictionary[rand()%dictionary.size()];
+				randword=dictionary[rand%dictionary.size()];
 			}
 			email=firstName;
 			email.append(randword);
 			break;
 		case 8:
 			while(easytolower(randword[0])!=easytolower(firstName[0])){
-				randword=dictionary[rand()%dictionary.size()];
+				randword=dictionary[rand%dictionary.size()];
 			}
 			email=randword;
 			email.append(lastName);
 			break;
 		case 9:
 			while(easytolower(randword[0])!=easytolower(firstName[0])){
-				randword=dictionary[rand()%dictionary.size()];
+				randword=dictionary[rand%dictionary.size()];
 			}
 			email=randword;
 			while(easytolower(randword[0])!=easytolower(lastName[0])){
-				randword=dictionary[rand()%dictionary.size()];
+				randword=dictionary[rand%dictionary.size()];
 			}
 			email.append(randword);
 			last=rand()%30+69;
