@@ -1,0 +1,8 @@
+﻿  main.cpp
+c:\users\jackw\desktop\cust_gen\customer_generator\customer_generator\main.cpp(104): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\jackw\desktop\cust_gen\customer_generator\customer_generator\main.cpp(111): warning C4018: '<': signed/unsigned mismatch
+c:\users\jackw\desktop\cust_gen\customer_generator\customer_generator\main.cpp(124): warning C4018: '<': signed/unsigned mismatch
+c:\users\jackw\desktop\cust_gen\customer_generator\customer_generator\main.cpp(137): warning C4018: '<': signed/unsigned mismatch
+c:\users\jackw\desktop\cust_gen\customer_generator\customer_generator\main.cpp(159): warning C4018: '<': signed/unsigned mismatch
+  customer_generator.vcxproj -> C:\Users\jackw\Desktop\cust_gen\customer_generator\Debug\customer_generator.exe
+  customer_generator.vcxproj -> C:\Users\jackw\Desktop\cust_gen\customer_generator\Debug\customer_generator.pdb (Partial PDB)

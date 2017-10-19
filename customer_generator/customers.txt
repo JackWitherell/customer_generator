@@ -1,0 +1,18 @@
+insert into customer
+values (1, 'Jeske Ferland', '971-1951', null, 18027, 29040);
+insert into customer
+values (2, 'Bracewell Aleshire', '208-8715', 'b.Aleshire@yahoo.co.uk', 15480, 23259);
+insert into customer
+values (3, 'Styons Sterner', '755-2148', null, 22088, 32347);
+insert into customer
+values (4, 'Bowling Nale', '500-5845', 'b.Nale@mail.com', 8839, 15606);
+insert into customer
+values (5, 'Pane Descoteaux', '733-8163', null, 10353, 21776);
+insert into customer
+values (6, 'Zent Kramer', '077-4271', null, 5673, 23726);
+insert into customer
+values (7, 'Plasencia Stoughton', '084-1363', 'ParamariboSedna`@pobox.com', 1086, 1529);
+insert into customer
+values (8, 'Aquilino Rosendahl', '855-7074', 'a.Rosendahl`@verizon.net', 5127, 14492);
+insert into customer
+values (9, 'Cartmell Bonam', '663-0397', null, 6145, 13062);
