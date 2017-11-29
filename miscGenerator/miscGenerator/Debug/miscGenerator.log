@@ -1,0 +1,4 @@
+﻿  main.cpp
+c:\users\jackw\desktop\cust_gen\miscgenerator\miscgenerator\main.cpp(110): warning C4018: '<': signed/unsigned mismatch
+  miscGenerator.vcxproj -> C:\Users\jackw\Desktop\cust_gen\miscGenerator\Debug\miscGenerator.exe
+  miscGenerator.vcxproj -> C:\Users\jackw\Desktop\cust_gen\miscGenerator\Debug\miscGenerator.pdb (Partial PDB)

@@ -1,18 +1,58 @@
-insert into customer
-values (1, 'Jeske Ferland', '971-1951', null, 18027, 29040);
-insert into customer
-values (2, 'Bracewell Aleshire', '208-8715', 'b.Aleshire@yahoo.co.uk', 15480, 23259);
-insert into customer
-values (3, 'Styons Sterner', '755-2148', null, 22088, 32347);
-insert into customer
-values (4, 'Bowling Nale', '500-5845', 'b.Nale@mail.com', 8839, 15606);
-insert into customer
-values (5, 'Pane Descoteaux', '733-8163', null, 10353, 21776);
-insert into customer
-values (6, 'Zent Kramer', '077-4271', null, 5673, 23726);
-insert into customer
-values (7, 'Plasencia Stoughton', '084-1363', 'ParamariboSedna`@pobox.com', 1086, 1529);
-insert into customer
-values (8, 'Aquilino Rosendahl', '855-7074', 'a.Rosendahl`@verizon.net', 5127, 14492);
-insert into customer
-values (9, 'Cartmell Bonam', '663-0397', null, 6145, 13062);
+insert into Member
+  values (1000, 'Maiden', 'Jarvis', '05-OCT-1977');
+insert into Member
+  values (1001, 'Laymon', 'Butner', '13-JAN-1916');
+insert into Member
+  values (1002, 'Kozel', 'Govan', '12-JUL-2008');
+insert into Member
+  values (1003, 'Trent', 'Wms', '14-AUG-1996');
+insert into Member
+  values (1004, 'Feliz', 'Piercy', '22-AUG-1986');
+insert into Member
+  values (1005, 'Louth', 'Kraker', '28-OCT-1984');
+insert into Member
+  values (1006, 'Liptak', 'Rocco', '12-AUG-1932');
+insert into Member
+  values (1007, 'Legnon', 'Ouimet', '27-MAY-1996');
+insert into Member
+  values (1008, 'Foland', 'Justis', '27-APR-1993');
+insert into Member
+  values (1009, 'Bulfer', 'Suiter', '17-FEB-1967');
+insert into Member
+  values (1010, 'Riel', 'Cowart', '04-APR-2000');
+insert into Member
+  values (1011, 'Goold', 'Berglund', '15-NOV-1937');
+insert into Member
+  values (1012, 'Laureano', 'Gauthier', '05-OCT-1974');
+insert into Member
+  values (1013, 'Setzler', 'Roath', '11-NOV-1938');
+insert into Member
+  values (1014, 'Kapinos', 'Baron', '01-SEP-2000');
+insert into Member
+  values (1015, 'Tayler', 'Ince', '07-MAR-1920');
+insert into Member
+  values (1016, 'Francoeur', 'Soltys', '26-DEC-1994');
+insert into Member
+  values (1017, 'Holzwarth', 'Scherr', '03-MAY-1985');
+insert into Member
+  values (1018, 'Pizzuti', 'Barfield', '08-JAN-1917');
+insert into Member
+  values (1019, 'Winberry', 'Hoese', '10-NOV-1955');
+insert into Member
+  values (1020, 'Roder', 'Schirmer', '04-APR-2005');
+insert into Member
+  values (1021, 'Mansir', 'Hewes', '27-OCT-1946');
+insert into Member
+  values (1022, 'Cutsforth', 'Gregory', '21-JUN-2007');
+insert into Member
+  values (1023, 'Gero', 'Ogle', '15-APR-1992');
+insert into Member
+  values (1024, 'Lokey', 'Patron', '03-JUN-2009');
+insert into Member
+  values (1025, 'Altom', 'Delsignore', '22-MAR-1939');
+insert into Member
+  values (1026, 'Mahaney', 'Swider', '22-AUG-1994');
+insert into Member
+  values (1027, 'Pier', 'Hellyer', '15-OCT-1998');
+insert into Member
+  values (1028, 'Arnall', 'Darcy', '09-DEC-2000');

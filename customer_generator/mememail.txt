@@ -1,0 +1,69 @@
+
+insert into MemberEmail
+  values (1000, 'MaidenJudaisms@gmail.com');
+insert into MemberEmail
+  values (1001, 'Laymonbarfs@comcast.net');
+insert into MemberEmail
+  values (1001, 'l.Butnera@fastmail.fm');
+insert into MemberEmail
+  values (1003, 't.Wms`@googlemail.com');
+insert into MemberEmail
+  values (1004, 'fathersPiercy@yahoo.com');
+insert into MemberEmail
+  values (1004, 'FlowersPiercy@yandex.com');
+insert into MemberEmail
+  values (1005, 'l.Krakera@hotmail.co.uk');
+insert into MemberEmail
+  values (1006, 'l.Rocco@wow.com');
+insert into MemberEmail
+  values (1007, 'l.Ouimet]@safe-mail.net');
+insert into MemberEmail
+  values (1008, 'f.Justis@bellsouth.net');
+insert into MemberEmail
+  values (1008, 'f.JustisU@charter.net');
+insert into MemberEmail
+  values (1009, 'b.SuiterT@yahoo.com');
+insert into MemberEmail
+  values (1009, 'b.Suiter@lavabit.com');
+insert into MemberEmail
+  values (1010, 'RichchattererL@mail.com');
+insert into MemberEmail
+  values (1011, 'GilmoreBerglund@comcast.net');
+insert into MemberEmail
+  values (1012, 'l.Gauthier]@outlook.com');
+insert into MemberEmail
+  values (1013, 'SetzlerRoath@verizon.net');
+insert into MemberEmail
+  values (1014, 'KinshasaBaron@me.com');
+insert into MemberEmail
+  values (1015, 'taylerInce@yahoo.co.uk');
+insert into MemberEmail
+  values (1015, 'TaylerIndies@gmx.net');
+insert into MemberEmail
+  values (1017, 'holzwarthScherr@verizon.net');
+insert into MemberEmail
+  values (1018, 'PizzutiBarfield@sbcglobal.net');
+insert into MemberEmail
+  values (1019, 'WiesenthalHoese@sbcglobal.net');
+insert into MemberEmail
+  values (1019, 'w.Hoese^@email.com');
+insert into MemberEmail
+  values (1020, 'roderSchirmer@hush.com');
+insert into MemberEmail
+  values (1021, 'm.Hewes]@safe-mail.net');
+insert into MemberEmail
+  values (1022, 'crawsgallbladderI@verizon.net');
+insert into MemberEmail
+  values (1023, 'g.OgleM@aol.com');
+insert into MemberEmail
+  values (1024, 'l.PatronH@fastmail.fm');
+insert into MemberEmail
+  values (1025, 'a.DelsignoreT@wow.com');
+insert into MemberEmail
+  values (1026, 'mahaneySwider@google.com');
+insert into MemberEmail
+  values (1027, 'pierHellyer@outlook.com');
+insert into MemberEmail
+  values (1028, 'arnallDarcy@yandex.com');
+insert into MemberEmail
+  values (1028, 'apartmentDarcy@comcast.net');

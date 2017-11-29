@@ -1,0 +1,64 @@
+Interest table
+	list.push_back("Architecture");
+	list.push_back("Carpentry");
+	list.push_back("Ceramics");
+	list.push_back("Drawing");
+	list.push_back("Electronics");
+	list.push_back("Film");
+	list.push_back("Food");
+	list.push_back("Graphic Narrative");
+	list.push_back("Glass");
+	list.push_back("Light");
+	list.push_back("Literature");
+	list.push_back("Natural World");
+	list.push_back("Painting");
+	list.push_back("Performing Arts");
+	list.push_back("Photography");
+	list.push_back("Printmaking");
+	list.push_back("Sculpture");
+	list.push_back("Sound");
+	list.push_back("Textiles");
+
+Venue table
+	list.push_back("Team Gallery");
+	list.push_back("The Hole");
+	list.push_back("Moran Bondaroff");
+	list.push_back("Marlborough Contemporary");
+	list.push_back("Mary Boone Gallery");
+	list.push_back("Sadie Coles HQ");
+	list.push_back("Levy Gorvy");
+	list.push_back("Galerie Thaddaeus Ropac");
+	list.push_back("Yvon Lambert");
+	list.push_back("Paula Cooper");
+	list.push_back("Lehmann Maupin");
+	list.push_back("Deitch Projects");
+	list.push_back("Sean Kelly Gallery");
+	list.push_back("Lisson Gallery");
+	list.push_back("Blum & Poe");
+	list.push_back("Gavin Browns Enterprise");
+	list.push_back("Sprueth Magers");
+	list.push_back("Victoria Miro");
+	list.push_back("Salon 94");
+	list.push_back("Marian Goodman");
+	list.push_back("Pace Gallery");
+	list.push_back("David Zwirner");
+	list.push_back("Galerie Perotin");
+	list.push_back("Hauser & Wirth");
+	list.push_back("Gagosian");
+
+IceCream table
+	list.push_back("NA");
+	list.push_back("Chocolate");
+	list.push_back("Vanilla");
+	list.push_back("Cookies n Creme");
+	list.push_back("Cookie Dough");
+	list.push_back("Mint Chip");
+	list.push_back("Strawberry");
+	list.push_back("Pistacio");
+	list.push_back("Salted Caramel");
+	list.push_back("Berry Blast");
+	list.push_back("Orange Creme");
+	list.push_back("Rainbow Sorbet");
+	list.push_back("Frozen Water");
+
+Project table

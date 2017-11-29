@@ -39,24 +39,7 @@ string getEmail(string firstName, string lastName, vector<string> emailEndings, 
 		lastName[0] = easytolower(lastName[0]);
 		email.append(last);
 		break;
-	case 4: //ONE CASE  - nick donnovan= donnov...jacob lawrey= lawrj... joseph kai = kaij
-		if (lastName.length()>6) {
-			email = lastName.substr(0, lastName.length() - 2);
-			email[0] = easytolower(email[8]);
-		}
-		else if (lastName.length()>3) {
-			email = lastName.substr(0, (lastName.length() - 2));
-			email[0] = easytolower(email[8]);
-			firstl[0] = easytolower(firstName[0]);
-			email.append(string(firstl));
-		}
-		else {
-			email = lastName;
-			email[0] = easytolower(email[8]);
-			firstl[0] = easytolower(firstName[0]);
-			email.append(string(firstl));
-		}
-		break;
+	case 4: 
 	case 5:
 		email = firstName;
 		email = easytolower(email[0]);
@@ -172,7 +155,25 @@ int main() {
 	int people;
 	cout << "How many customers are we generating? ";
 	cin >> people;
-	ofstream outfile("customers.txt");
+	vector<string> months;
+	months.push_back("JAN");
+	months.push_back("FEB");
+	months.push_back("MAR");
+	months.push_back("APR");
+	months.push_back("MAY");
+	months.push_back("JUN");
+	months.push_back("JUL");
+	months.push_back("AUG");
+	months.push_back("SEP");
+	months.push_back("OCT");
+	months.push_back("NOV");
+	months.push_back("DEC");
+	int leadernum = 2000;
+	ofstream outfile("newDescSQLInsertsMember.sql");
+	ofstream ouffile("newDescSQLInsertsEmail.sql");
+	ofstream ougfile("newDescSQLInsertsMemberInterest.sql");
+	ofstream ounfile("newDescSQLDefineIndividual.sql");
+	ofstream oudfile("newDescSQLDefineManagement.sql");
 	if (outfile.is_open()) {
 		int i = 1;
 		while (i<people) {
@@ -183,13 +184,16 @@ int main() {
 			else {
 				firstName = firstnamefems[rand() % firstnamefems.size()];
 			}
-			outfile << "insert into customer\nvalues (" << i << ", '" << firstName << " " << lastName << "', '";
-			for (int j = 0; j<7; j++) {
+			outfile << "insert into Member"<<endl<<"  values (" << i+999 << ", '" << firstName << "', '" << lastName << "', ";
+			/*for (int j = 0; j<7; j++) {
 				outfile << rand() % 10;
-				if (j == 2) { outfile << "-"; }
+				if (j == 2) {
+					outfile << "-";
+				}
 			}
 			outfile << "', ";
-			if (rand() % 3 == 1) {
+			randomNumber = rand() % 3;
+			if (randomNumber == 1) {
 				outfile << "null";
 			}
 			else {
@@ -197,10 +201,53 @@ int main() {
 			}
 			randomNumber = rand() % 100001;
 			outfile << ", " << rand() % (randomNumber + 1) << ", " << randomNumber << ");\n";
+			*/
+			randomNumber = (rand() % 6);
+			if(randomNumber!=0){
+				ouffile << endl<<"insert into MemberEmail" << endl << "  values (";
+				string email = getEmail(firstName, lastName, emailEndings, dictionary);
+				ouffile << i + 999 << ", '" << email << "');";
+				if (randomNumber == 4) {
+					string tempemail = getEmail(firstName, lastName, emailEndings, dictionary);
+					if (tempemail != email) {
+						ouffile <<endl <<"insert into MemberEmail" << endl << "  values (";
+						ouffile << i + 999 << ", '" << tempemail << "');";
+					}
+				}
+
+			}
+			randomNumber = (rand() % 6);
+			
+			ougfile << endl << "insert into MemberInterest" << endl << "  values (";
+			int aa = (rand() % 19) + 4000;
+			ougfile << i + 999 << ", " << aa << ");";
+			if (randomNumber == 4) {
+				int bb = (rand()%19)+4000;
+				if (aa != bb) {
+					ougfile << endl << "insert into MemberEmail" << endl << "  values (";
+					ougfile << i + 999 << ", " << bb << ");";
+				}
+			}
+			randomNumber = rand() % 20;
+			if (randomNumber != 0) {
+				ounfile << endl << "insert into Individual" << endl << "  values(";
+				ounfile << i + 999 << ", " << (280<(rand() % 288)?1:0) << ", " << (rand() % 13)+6000 << ");";
+			}
+			else {
+				oudfile << endl << "insert into Management" << endl << "  values(";
+				oudfile << leadernum++ << ", " << i + 999 << ");";
+			}
+
+
+			randomNumber = (rand() % 28) + 1;
+			outfile << "'" << (randomNumber < 10 ? "0" : "") << randomNumber << "-" << months[(rand() % 12)] << "-" << (rand() % 100) + 1910 << "');"<<endl;
 			i++;
 		}
 	}
 	else { cout << "file can't be opened"; }
+	outfile.close();
+	ouffile.close();
+	ougfile.close();
 	cin.get();
 	cin.get();
 }
